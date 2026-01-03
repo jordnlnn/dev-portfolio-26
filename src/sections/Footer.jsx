@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <section>
-      <h3>Footer</h3>
+      <h3 style={{ fontFamily: "var(--font-mono)" }}>Footer</h3>
     </section>
   );
 }

@@ -1,8 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  scroll-margin-top: 80px; /* accounts for sticky nav */
+}
+
 body {
   margin: 0;
   font-family: var(--font-sans);
   background: var(--bg);
   color: var(--text);
+}
+
+.container {
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 0 var(--space-4);
 }
 
 a {

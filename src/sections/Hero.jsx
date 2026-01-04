@@ -1,3 +1,5 @@
+import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+
 export default function Hero() {
   return (
     <section id="hero" className="hero">
@@ -13,14 +15,34 @@ export default function Hero() {
         </p>
 
         <div className="hero__social" aria-label="Social links">
-          <a href="#" aria-label="Instagram">
-            IG
+          <a
+            className="icon-btn"
+            href="https://github.com/jordnlnn"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub />
           </a>
-          <a href="#" aria-label="GitHub">
-            GH
+
+          <a
+            className="icon-btn"
+            href="https://www.linkedin.com/in/jordangoldtooth/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedinIn />
           </a>
-          <a href="#" aria-label="LinkedIn">
-            IN
+
+          <a
+            className="icon-btn"
+            href="https://instagram.com/jordnlnn.dev"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+          >
+            <FaInstagram />
           </a>
         </div>
       </div>

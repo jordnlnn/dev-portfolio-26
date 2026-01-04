@@ -1,14 +1,34 @@
 .hero {
-  //padding-top: calc(var(--nav-h) + var(--space-6));
-  padding-bottom: var(--space-6);
+  position: relative;
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-8);
   background: var(--bg-gradient);
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../../assets/hero-image-drawing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero__inner {
-  min-height: clamp(420px, 60vh, 560px);
+  //min-height: clamp(420px, 60vh, 560px);
   display: grid;
   place-items: center;
   text-align: center;
+  padding: var(--space-8) 0;
 }
 
 .hero__title {
@@ -17,38 +37,54 @@
   font-size: clamp(2rem, 4.8vw, 3.25rem);
   line-height: 1.15;
   color: var(--text);
-  margin-bottom: 0;
-  //text-wrap: balance;
+  margin: 0;
+  max-width: 27ch;
 }
 
 .hero__description {
   max-width: 70ch;
   font-size: var(--fs-1);
-  color: rgba(231, 234, 240, 0.72);
-  margin-bottom: 0;
+  color: var(--muted);
+  margin: var(--space-6) 0;
 }
 
 .hero__social {
   display: flex;
-  gap: var(--space-3);
+  gap: var(--space-4);
   justify-content: center;
 }
 
-.hero__social a {
-  width: 44px;
-  height: 44px;
+/* Reusable icon button */
+.icon-btn {
+  width: 56px;
+  height: 56px;
   display: grid;
   place-items: center;
-  border-radius: 100%;
+  border-radius: 999px;
   background: var(--accent-gradient);
-  font-family: var(--font-mono);
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  border: none !important;
-  outline: none !important;
+  color: #ffffff;
+  //border: 1px solid white;
+  //box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 
-.hero__social a:focus-visible {
-  outline: 2px solid rgba(255, 192, 74, 0.7);
-  outline-offset: 4px;
+.icon-btn svg {
+  width: 30px;
+  height: 30px;
 }
+
+/* Subtle hover — no color changes, just motion */
+.icon-btn:hover {
+  transform: translateY(-2px);
+  filter: saturate(1.05);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.4);
+}
+
+.icon-btn:active {
+  transform: translateY(0px);
+}
+
+// .hero__social a:focus-visible {
+//   outline: 2px solid rgba(255, 192, 74, 0.7);
+//   outline-offset: 4px;
+// }

@@ -1,19 +1,35 @@
 :root {
-  /* Colors */
+  /*Colors*/
   --bg: #1e1e1e;
-  --panel: #151a22;
   --text: #e7eaf0;
   --muted: #a7b0c0;
-  --accent: #ff6347;
+  --gray: #333333;
+  // --darker-gray: #1e1e1e;
+  //--panel: #151a22;
 
-  /* Type */
-  --font-sans: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  /* Accents */
+  --accent-1: #ff6347;
+  --accent-2: #ffc04a;
+
+  /* Gradients */
+  --accent-gradient: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+  --bg-gradient: linear-gradient(135deg, var(--gray), var(--bg));
+
+  /* Navbar */
+  --nav-h: 58px;
+  --border: rgba(231, 234, 240, 0.08);
+
+  /* Fonts */
+  --font-sans: "Inter", Arial, sans-serif;
   --font-mono: "Roboto Mono", ui-monospace, monospace;
 
+  /* Type scale (editorial, restrained) */
+  --fs-0: 0.85rem;
   --fs-1: 0.95rem;
   --fs-2: 1.125rem;
   --fs-3: 1.6rem;
   --fs-4: 2.2rem;
+  --fs-5: 3rem;
 
   /* Spacing */
   --space-1: 0.5rem;

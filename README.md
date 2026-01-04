@@ -1,16 +1,46 @@
-# React + Vite
+# Dev Portfolio — 2026 (In progress)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A focused, single-page developer portfolio showcasing application-focused frontend work.
 
-Currently, two official plugins are available:
+This site is designed to communicate my approach to building modern web interfaces: thoughtful UI behavior, clear structure, and maintainable React code.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Purpose
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio is intentionally **curated, not exhaustive**.
 
-## Expanding the ESLint configuration
+It is built to:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Present me as an application-focused frontend developer
+- Emphasize React, data-driven UI, and stateful interfaces
+- Prioritize clarity, readability, and intent over visual excess
+
+It is **not** a catalog of all past work.
+
+---
+
+## Tech Stack
+
+- **React (Vite)**
+- **Sass (SCSS)**
+- **CSS custom properties**
+
+Typography:
+
+- **Inter** — body copy and long-form content
+- **Roboto Mono** — headings, navigation, and UI text
+
+---
+
+## Structure
+
+The site is a single-page layout with anchored sections:
+
+- Hero
+- About
+- Experience
+- Projects
+- Contact
+
+The Projects section is deliberately limited to a small number of application-focused builds to reduce noise and improve signal.

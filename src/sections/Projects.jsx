@@ -3,7 +3,7 @@ import { projects } from "../data/projects";
 export default function Projects() {
   return (
     <section style={{ padding: "var(--space-6) var(--space-4)" }} id="projects">
-      {/* <div style={{ maxWidth: "var(--max)", margin: "0 auto" }}>
+      <div style={{ maxWidth: "var(--max)", margin: "0 auto" }}>
         <h2
           style={{
             fontSize: "var(--fs-3)",
@@ -55,7 +55,7 @@ export default function Projects() {
             </article>
           ))}
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }

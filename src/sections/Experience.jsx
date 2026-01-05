@@ -7,6 +7,7 @@ export default function Experience() {
   const [index, setIndex] = useState(0);
 
   const total = items.length;
+  const current = items[index];
 
   const prev = () => setIndex((i) => (i - 1 + total) % total);
   const next = () => setIndex((i) => (i + 1) % total);
@@ -46,35 +47,25 @@ export default function Experience() {
           </div>
         </div>
 
-        <div className="experience__viewport" aria-live="polite">
-          <div
-            className="experience__track"
-            style={{
-              transform: `translateX(calc(-1 * var(--slide-step) * ${index}))`,
-            }}
+        <div className="experience__stage" aria-live="polite">
+          <article
+            className="experience-card"
+            aria-label={`${current.company}, ${current.role}`}
           >
-            {items.map((job) => (
-              <article
-                key={`${job.company}-${job.role}`}
-                className="experience-card"
-                aria-label={`${job.company}, ${job.role}`}
-              >
-                <div className="experience-card__meta">
-                  <div className="experience-card__dates">{job.dates}</div>
-                  <div className="experience-card__company">{job.company}</div>
-                  <div className="experience-card__role">{job.role}</div>
-                </div>
+            <div className="experience-card__meta">
+              <div className="experience-card__dates">{current.dates}</div>
+              <div className="experience-card__company">{current.company}</div>
+              <div className="experience-card__role">{current.role}</div>
+            </div>
 
-                <div className="experience-card__details">
-                  <ul className="experience-card__bullets">
-                    {job.bullets.map((b) => (
-                      <li key={b}>{b}</li>
-                    ))}
-                  </ul>
-                </div>
-              </article>
-            ))}
-          </div>
+            <div className="experience-card__details">
+              <ul className="experience-card__bullets">
+                {current.bullets.map((b) => (
+                  <li key={b}>{b}</li>
+                ))}
+              </ul>
+            </div>
+          </article>
         </div>
 
         <div className="experience__dots" aria-label="Carousel position">

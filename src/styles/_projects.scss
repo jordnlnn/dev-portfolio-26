@@ -1,0 +1,118 @@
+.projects {
+  padding: var(--space-8) 0;
+  background: var(--gray);
+}
+
+.projects__title {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: clamp(1.8rem, 2.6vw, 2.3rem);
+  margin: 0 0 var(--space-7);
+  color: var(--text);
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-6);
+  align-items: stretch;
+}
+
+/* Card */
+.project-card {
+  border-radius: 22px;
+  padding: var(--space-6) var(--space-5);
+  //min-height: 320px;
+
+  background: var(--bg-gradient);
+  border: 1px solid rgba(231, 234, 240, 0.08);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.05);
+
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-between;
+  height: 100%;
+}
+
+.project-card__content {
+  flex-grow: 1;
+}
+
+.project-card__title {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 0 var(--space-4);
+  color: var(--text);
+}
+
+.project-card__desc {
+  margin: 0;
+  color: rgba(231, 234, 240, 0.72);
+  line-height: 1.7;
+  font-size: var(--fs-1);
+  //max-width: 30ch;
+}
+
+/* Buttons */
+.project-card__actions {
+  display: flex;
+  justify-content: space-between;
+  //gap: var(--space-4);
+  //margin-top: auto;
+  padding-top: var(--space-4);
+  //background-color: hotpink !important;
+}
+
+/* Shared button base */
+.btn {
+  //height: 42px;
+  min-width: 45%;
+  padding: 10px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--font-mono);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  font-size: 0.8rem;
+
+  border-radius: 10px;
+  text-decoration: none;
+
+  transition: transform 160ms ease, filter 160ms ease, box-shadow 160ms ease;
+}
+
+/* Gradient “LIVE” */
+.btn--solid {
+  background: var(--accent-gradient);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  //box-shadow: 0 12px 26px rgba(0, 0, 0, 0.35);
+}
+
+.btn--solid:hover {
+  transform: translateY(-2px);
+  filter: saturate(1.05);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.1);
+}
+
+/* Outline “CODE” */
+.btn--outline {
+  background: transparent;
+  color: rgba(231, 234, 240, 0.85);
+  border: 1px solid rgba(255, 192, 74, 0.7);
+}
+
+.btn--outline:hover {
+  transform: translateY(-2px);
+  filter: saturate(1.05);
+}
+
+/* Focus visibility */
+.btn:focus-visible {
+  outline: 2px solid rgba(255, 192, 74, 0.75);
+  outline-offset: 4px;
+}

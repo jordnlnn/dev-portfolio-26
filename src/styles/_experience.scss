@@ -68,6 +68,7 @@
 /* Card */
 .experience-card {
   width: min(1100px, 100%);
+  min-height: clamp(260px, 30vh, 340px);
   flex: 0 0 auto;
 
   background: var(--gray);

@@ -9,7 +9,7 @@ export const projects = [
     },
   },
   {
-    title: "Dictionary",
+    title: "Dictionary Web App",
     description:
       "Data-driven application focused on structured querying, predictable state, and clear data flow.",
     links: {

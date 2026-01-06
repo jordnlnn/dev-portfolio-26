@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Pokémon Support Buddy",
     description:
-      "React application emphasizing UX intent and AI-assisted interaction with dynamic state and feedback.",
+      "A friendly, interactive web app that turns your favorite Pokémon into a  personal emotional-support companion—powered by Google Gemini and  PokeAPI. Built with React.js, JSX, CSS.",
     links: {
       live: "https://YOUR-LIVE-LINK",
       code: "https://YOUR-CODE-LINK",
@@ -11,16 +11,16 @@ export const projects = [
   {
     title: "Dictionary Web App",
     description:
-      "Data-driven application focused on structured querying, predictable state, and clear data flow.",
+      "A responsive web application that allows users to search and explore word definitions. Powered by Free Dictionary API & Pexels API. Built with React.js, JSX, & CSS.",
     links: {
       live: "https://YOUR-LIVE-LINK",
-      code: "https://YOUR-CODE-LINK",
+      code: "https://github.com/jordnlnn/react-dictionary-project",
     },
   },
   {
     title: "World Clock",
     description:
-      "Frontend fundamentals with time-based logic, derived state, and reactive UI updates.",
+      "A responsive web application that displays real-time timezones with visual day/night states, built to explore time-based UI logic and dynamic updates. Built with HTML, CSS, JavaScript, Moment.js.",
     links: {
       live: "https://YOUR-LIVE-LINK",
       code: "https://YOUR-CODE-LINK",

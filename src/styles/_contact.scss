@@ -1,0 +1,69 @@
+.contact {
+  position: relative;
+  padding-top: var(--space-8);
+  padding-bottom: var(--space-8);
+  background: var(--bg-gradient);
+  overflow: hidden;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../../assets/hero-image-drawing.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.contact > * {
+  position: relative;
+  z-index: 1;
+}
+
+.contact__inner {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: var(--space-8) 0;
+}
+
+.contact__title {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  font-size: clamp(2rem, 4.8vw, 3.25rem);
+  line-height: 1.15;
+  color: var(--text);
+  margin: 0;
+  max-width: 27ch;
+}
+
+.contact__description {
+  max-width: 70ch;
+  font-size: var(--fs-1);
+  color: var(--muted);
+  margin: var(--space-6) 0;
+}
+
+@media screen and (max-width: 900px) {
+  .contact::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../../assets/hero-image-drawing.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: center;
+    opacity: 0.15;
+    pointer-events: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+}

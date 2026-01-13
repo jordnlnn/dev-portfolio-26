@@ -1,6 +1,25 @@
 .experience {
-  padding: var(--space-8) 0;
+  position: relative;
+  padding: var(--space-9) 0;
   background: var(--bg-gradient);
+  overflow: hidden;
+}
+
+.experience > * {
+  position: relative;
+  z-index: 1;
+}
+
+.experience::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(../../assets/g1.png);
+  background-repeat: no-repeat;
+  background-size: 525px, auto, contain;
+  background-position: center;
+  opacity: 0.08;
+  //pointer-events: none;
 }
 
 .experience__stage {

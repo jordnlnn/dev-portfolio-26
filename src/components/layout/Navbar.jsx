@@ -13,7 +13,9 @@ export default function Navbar() {
   return (
     <header className="nav">
       <div className="nav__inner container">
-        <a className="nav__brand">JG</a>
+        <a className="nav__brand" href="#hero">
+          JG
+        </a>
 
         <button
           type="button"
@@ -31,7 +33,6 @@ export default function Navbar() {
           className={`nav__links ${open ? "is-open" : ""}`}
           aria-label="Primary"
         >
-          <a href="#hero">Hero</a>
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#projects">Projects</a>

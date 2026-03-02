@@ -5,7 +5,7 @@ export default function Hero() {
     <section id="hero" className="hero">
       <div className="container hero__inner">
         <h1 className="hero__title">
-          Frontend Developer Building Modern Web & Mobile Apps
+          Frontend Developer Building Modern Web Solutions
         </h1>
 
         <p className="hero__description">
@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="hero__social" aria-label="Social links">
           <a
             className="icon-btn"
-            href="https://github.com/jordnlnn"
+            href="https://github.com/jordnlnn/"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
@@ -37,7 +37,7 @@ export default function Hero() {
 
           <a
             className="icon-btn"
-            href="https://instagram.com/jordnlnn.dev"
+            href="https://instagram.com/jordnlnn/"
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"

@@ -22,7 +22,7 @@
 /* Card */
 .project-card {
   border-radius: 22px;
-  padding: var(--space-6) var(--space-5);
+  padding: var(--space-7) var(--space-5);
   //min-height: 320px;
 
   background: var(--bg-gradient);
@@ -42,7 +42,7 @@
 .project-card__title {
   font-family: var(--font-mono);
   font-weight: 600;
-  font-size: 1rem;
+  font-size: var(--fs-3);
   margin: 0 0 var(--space-4);
   color: var(--text);
 }

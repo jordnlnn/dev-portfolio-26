@@ -9,7 +9,13 @@ export default function Contact() {
           React Native project work. The best way to reach me is by email.
         </p>
 
-        <a className="btn btn--solid" href="#" target="_blank" rel="noreferrer">
+        <a
+          id="contact-btn"
+          className="btn btn--solid"
+          href="#"
+          target="_blank"
+          rel="noreferrer"
+        >
           EMAIL
         </a>
       </div>

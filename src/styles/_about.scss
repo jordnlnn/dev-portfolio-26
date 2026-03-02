@@ -6,6 +6,7 @@
 
 .about__inner {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   gap: var(--space-6);
 }

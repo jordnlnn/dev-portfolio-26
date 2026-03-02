@@ -22,9 +22,14 @@
   //pointer-events: none;
 }
 
+// .experience__inner {
+//   display: flex;
+//   justify-content: center;
+// }
+
 .experience__stage {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .experience__header {
@@ -61,7 +66,10 @@
   //box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
 
   cursor: pointer;
-  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    filter 160ms ease;
 }
 
 .circle-btn svg {
@@ -86,7 +94,7 @@
 
 /* Card */
 .experience-card {
-  width: min(1100px, 100%);
+  width: min(1400px, 100%);
   min-height: clamp(260px, 30vh, 340px);
   flex: 0 0 auto;
 

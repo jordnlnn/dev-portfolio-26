@@ -47,6 +47,11 @@
   margin: var(--space-6) 0;
 }
 
+// #contact-btn {
+//   display: block;
+//   width: 100px;
+// }
+
 @media screen and (max-width: 900px) {
   .contact::before {
     content: "";

@@ -1,7 +1,7 @@
 .hero {
   position: relative;
-  padding-top: var(--space-8);
-  padding-bottom: var(--space-8);
+  padding-top: var(--space-9);
+  padding-bottom: var(--space-9);
   background: var(--bg-gradient);
   overflow: hidden;
 }
@@ -28,7 +28,7 @@
   display: grid;
   place-items: center;
   text-align: center;
-  padding: var(--space-8) 0;
+  padding: var(--space-9) 0;
 }
 
 .hero__title {
@@ -63,7 +63,10 @@
   border-radius: 999px;
   background: var(--accent-gradient);
   color: #ffffff;
-  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    filter 160ms ease;
 }
 
 .icon-btn svg {

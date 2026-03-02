@@ -1,5 +1,5 @@
 .projects {
-  padding: var(--space-8) 0;
+  padding: var(--space-9) 0;
   background: var(--gray);
 }
 
@@ -82,7 +82,10 @@
   border-radius: 10px;
   text-decoration: none;
 
-  transition: transform 160ms ease, filter 160ms ease, box-shadow 160ms ease;
+  transition:
+    transform 160ms ease,
+    filter 160ms ease,
+    box-shadow 160ms ease;
 }
 
 /* Gradient “LIVE” */

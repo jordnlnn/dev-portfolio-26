@@ -1,6 +1,6 @@
 export const experience = [
   {
-    dates: "JUN 2024 – NOV 2024",
+    dates: "JUN 2025 – NOV 2025",
     company: "Nyzhon Studios",
     role: "Mobile App Developer (Contract)",
     bullets: [
@@ -20,7 +20,7 @@ export const experience = [
     ],
   },
   {
-    dates: "AUG 2021 – DEC 2022",
+    dates: "AUG 2021 – MAR 2025",
     company: "Upwork",
     role: "Independent Web Developer",
     bullets: [

@@ -1,7 +1,6 @@
 .hero {
   position: relative;
-  padding-top: var(--space-9);
-  padding-bottom: var(--space-9);
+  padding: var(--space-9) var(--space-8);
   background: var(--bg-gradient);
   overflow: hidden;
 }
@@ -99,6 +98,10 @@
     background-position: center;
     opacity: 0.15;
     pointer-events: none;
+  }
+
+  .hero__title {
+    max-width: 120ch;
   }
 }
 

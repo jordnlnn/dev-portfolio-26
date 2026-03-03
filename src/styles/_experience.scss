@@ -192,3 +192,9 @@
     font-size: var(--fs-2);
   }
 }
+@media (max-width: 600px) {
+  .experience {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+}

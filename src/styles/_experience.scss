@@ -177,3 +177,18 @@
   outline: 2px solid rgba(255, 192, 74, 0.75);
   outline-offset: 4px;
 }
+
+@media (max-width: 1000px) {
+  .experience-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .experience-card__company {
+    font-size: var(--fs-3);
+  }
+
+  .experience-card__role {
+    font-size: var(--fs-2);
+  }
+}

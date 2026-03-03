@@ -62,10 +62,8 @@
   //gap: var(--space-4);
   //margin-top: auto;
   padding-top: var(--space-4);
-  //background-color: hotpink !important;
 }
 
-/* Shared button base */
 .btn {
   //height: 42px;
   min-width: 45%;
@@ -126,5 +124,18 @@
     flex-direction: column;
     align-items: center;
     gap: var(--space-8);
+  }
+
+  .project-card__title {
+    margin: 0;
+  }
+
+  .project-card__desc {
+    margin: var(--space-5) 0;
+  }
+
+  .project-card__actions {
+    margin: 0;
+    padding: 0;
   }
 }

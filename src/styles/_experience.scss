@@ -19,15 +19,7 @@
   background-size: 525px, auto;
   background-position: center;
   opacity: 0.08;
-  // will-change: transform;
-  // transform: translateY(var(--parallax-y, 0px));
-  // transition: transform 0.05s linear;
 }
-
-// .experience__inner {
-//   display: flex;
-//   justify-content: center;
-// }
 
 .experience__stage {
   display: flex;
@@ -135,6 +127,7 @@
   font-style: italic;
   font-size: 0.9rem;
   color: rgba(231, 234, 240, 0.75);
+  //background-color: red;
 }
 
 /* Right column */
@@ -198,5 +191,24 @@
   .experience {
     padding-left: var(--space-4);
     padding-right: var(--space-4);
+  }
+  .circle-btn {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 400px) {
+  .experience {
+    padding-left: var(--space-1);
+    padding-right: var(--space-1);
+  }
+  .experience-card {
+    padding: var(--space-5) var(--space-3);
+    gap: var(--space-4);
+  }
+  .circle-btn {
+    width: 40px;
+    height: 40px;
   }
 }

@@ -12,7 +12,7 @@ export default function Contact() {
         <a
           id="contact-btn"
           className="btn btn--solid"
-          href="#"
+          href="mailto:jordangoldtooth@gmail.com"
           target="_blank"
           rel="noreferrer"
         >

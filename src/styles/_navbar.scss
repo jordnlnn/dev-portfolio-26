@@ -25,7 +25,6 @@
   color: var(--text);
 }
 
-/* Desktop links */
 .nav__links {
   display: flex;
   align-items: center;
@@ -58,7 +57,9 @@
   background: var(--accent-gradient);
   transform: scaleX(0.85);
   transform-origin: left;
-  transition: opacity 180ms ease, transform 180ms ease;
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease;
 }
 
 .nav__links a:hover::after {
@@ -113,20 +114,22 @@
 
   /* Start hidden */
   .nav__links {
-    display: none;
-    width: 100%;
-    //margin-top: 300px;
+    position: absolute;
+    top: var(--nav-h);
+    left: 0;
+    right: 0;
 
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     gap: 10px;
-
     padding: 12px;
-    border-radius: 16px;
-
+    border-radius: 0 0 8px 8px;
     background: var(--bg);
+    //backdrop-filter: blur(10px);
     border: 1px solid rgba(231, 234, 240, 0.08);
+    border-top: none;
   }
 
   /* Show when toggled */

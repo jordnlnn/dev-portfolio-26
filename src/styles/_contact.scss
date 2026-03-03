@@ -1,6 +1,6 @@
 .contact {
   position: relative;
-  padding: var(--space-8);
+  padding: var(--space-9) var(--space-8);
   background: var(--bg-gradient);
   overflow: hidden;
 }
@@ -26,7 +26,7 @@
   display: grid;
   place-items: center;
   text-align: center;
-  padding: var(--space-8) 0;
+  padding: var(--space-10) 0;
 }
 
 .contact__title {

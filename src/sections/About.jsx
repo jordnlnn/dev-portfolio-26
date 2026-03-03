@@ -1,3 +1,5 @@
+import portraitImg from "../../assets/portrait.png";
+
 export default function About() {
   return (
     <section className="about" id="about">
@@ -23,7 +25,7 @@ export default function About() {
 
         <div className="about__media" aria-hidden="true">
           <div className="about__avatar">
-            <img src="../../assets/portrait.png" alt="" />
+            <img src={portraitImg} alt="Jordan's Professional Portrait" />
           </div>
         </div>
       </div>

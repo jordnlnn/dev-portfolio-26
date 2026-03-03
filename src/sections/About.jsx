@@ -1,4 +1,4 @@
-import portraitImg from "../../assets/portrait.png";
+import portraitImg from "../../assets/jordan-portrait.png";
 
 export default function About() {
   return (

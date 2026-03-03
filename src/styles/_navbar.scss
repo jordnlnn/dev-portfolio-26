@@ -5,8 +5,9 @@
   height: var(--nav-h);
   z-index: 50;
 
-  background: rgba(14, 17, 22, 0.75);
-  backdrop-filter: blur(10px);
+  // background: rgba(14, 17, 22, 0.75);
+  // backdrop-filter: blur(10px);
+  background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
 

@@ -9,7 +9,7 @@ export default function Footer() {
           padding: "0",
         }}
       >
-        Deisgned and built by{" "}
+        Designed and built by{" "}
         <a
           href="https://github.com/jordnlnn/"
           target="_blank"

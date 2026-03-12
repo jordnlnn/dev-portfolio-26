@@ -9,8 +9,7 @@ export default function Hero() {
         </h1>
 
         <p className="hero__description">
-          Where Indigenous Perspective Meets Modern Digital Craftsmanship.
-          Specializing in accessible, high-performance web development.
+          Where Indigenous Perspective Meets Modern Digital Craftsmanship
         </p>
 
         <nav className="hero__social" aria-label="Social media links">

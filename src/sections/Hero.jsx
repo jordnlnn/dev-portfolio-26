@@ -12,7 +12,7 @@ export default function Hero() {
           Where Indigenous Perspective Meets Modern Digital Craftsmanship
         </p>
 
-        <nav className="hero__social" aria-label="Social media links">
+        <div className="hero__social" aria-label="Social media links">
           <a
             className="icon-btn"
             href="https://github.com/jordnlnn/"
@@ -42,7 +42,7 @@ export default function Hero() {
           >
             <FaInstagram aria-hidden="true" />
           </a>
-        </nav>
+        </div>
       </div>
     </section>
   );

@@ -8,18 +8,17 @@ export default function About() {
           <h2 className="about__title">Who I Am</h2>
 
           <p>
-            I’m a web and application developer focused on building
-            product-quality interfaces that balance usability and engineering
-            discipline. I care deeply about accessibility, clarity, and creating
-            interfaces that are reliable, scalable, and intentional.
-          </p>
-
-          <p>
-            My interests also extend into Indigenous tech initiatives, where I’m
-            committed to helping preserve and promote language and culture
-            through thoughtful, accessible digital solutions, while also
-            pursuing broader opportunities that support long-term growth as a
-            software engineer.
+            Hey there! I'm Jordan, a freelance web developer and digital
+            craftsman dedicated to building thoughtful, high-impact experiences
+            for brands that care about their community. With a background rooted
+            in both engineering and creative storytelling, I help small
+            businesses and Indigenous organizations translate their vision into
+            the digital space. Whether it's a bespoke portfolio or a complex
+            application, my focus is always on clarity, accessibility, and
+            cultural intentionality. When I'm not in front of a code editor,
+            you'll probably find me exploring new design trends, contributing to
+            Indigenous tech initiatives, or working on passion projects that
+            bridge the gap between tradition and technology.
           </p>
         </div>
 

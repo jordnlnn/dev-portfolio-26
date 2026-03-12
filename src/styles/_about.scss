@@ -1,5 +1,5 @@
 .about {
-  padding: var(--space-9) var(--space-7) 0;
+  padding: var(--space-9) var(--space-7);
   margin-bottom: 0;
   background: var(--gray);
   border-top: 1px solid rgba(231, 234, 240, 0.06);
@@ -9,22 +9,26 @@
   display: flex;
   justify-content: center;
   flex-direction: row;
-  gap: var(--space-9);
+  gap: var(--space-8);
+  background: var(--bg-gradient);
+  padding: var(--space-6);
 }
 
 .about__title {
-  font-family: var(--font-mono);
-  font-weight: 600;
-  font-size: clamp(1.8rem, 2.6vw, 2.3rem);
-  margin-bottom: var(--space-5);
+  font-family: var(--font-sans);
+  font-weight: 900;
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  margin: 0 0 30px 0;
   color: var(--text);
+  text-transform: uppercase;
 }
 
 .about__content p {
-  max-width: 60ch;
+  font-family: var(--font-mono);
+  //max-width: 60ch;
   font-size: var(--fs-1);
   color: var(--muted);
-  margin-bottom: var(--space-4);
+  //margin-bottom: var(--space-4);
 }
 
 .about__media {
@@ -33,12 +37,13 @@
 }
 
 .about__avatar {
-  width: 350px;
-  height: 350px;
+  width: 400px;
+  height: 400px;
   border-radius: 100%;
   padding: 10px;
   background: var(--accent-gradient);
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.15);
+  //margin-top: -100px;
 }
 
 .about__avatar img {

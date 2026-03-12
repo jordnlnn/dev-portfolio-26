@@ -10,15 +10,20 @@ export default function About() {
           <p>
             Hey there! I'm Jordan, a freelance web developer and digital
             craftsman dedicated to building thoughtful, high-impact experiences
-            for brands that care about their community. With a background rooted
-            in both engineering and creative storytelling, I help small
-            businesses and Indigenous organizations translate their vision into
-            the digital space. Whether it's a bespoke portfolio or a complex
-            application, my focus is always on clarity, accessibility, and
-            cultural intentionality. When I'm not in front of a code editor,
-            you'll probably find me exploring new design trends, contributing to
-            Indigenous tech initiatives, or working on passion projects that
-            bridge the gap between tradition and technology.
+            for brands that care about their community.
+            <br />
+            <br />
+            With a background rooted in both engineering and creative
+            storytelling, I help small businesses and Indigenous organizations
+            translate their vision into the digital space. Whether it's a
+            bespoke portfolio or a complex application, my focus is always on
+            clarity, accessibility, and cultural intentionality.
+            <br />
+            <br />
+            When I'm not in front of a code editor, you'll probably find me
+            exploring new design trends, contributing to Indigenous tech
+            initiatives, or working on passion projects that bridge the gap
+            between tradition and technology.
           </p>
         </div>
 

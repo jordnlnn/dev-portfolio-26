@@ -50,8 +50,8 @@
 }
 
 .hero__title {
-  font-family: var(--font-heading);
-  font-weight: 800;
+  // font-family: var(--font-mono);
+  // font-weight: 800;
   font-size: clamp(2.25rem, 8.5vw, 3rem);
   line-height: 1.1;
   color: var(--text);
@@ -61,7 +61,7 @@
 }
 
 .hero__description {
-  font-family: var(--font-body);
+  font-family: var(--font-mono);
   font-size: 1.1rem;
   font-style: italic;
   color: var(--muted);

@@ -11,7 +11,7 @@
   flex-direction: row;
   gap: var(--space-8);
   background: var(--bg-gradient);
-  padding: var(--space-6);
+  padding: var(--space-8);
 }
 
 .about__title {
@@ -54,6 +54,9 @@
 }
 
 @media (max-width: 1000px) {
+  .about {
+    padding-bottom: var(--space-4);
+  }
   .about__inner {
     flex-direction: column;
     align-items: center;
@@ -77,9 +80,13 @@
     height: 250px;
   }
 }
+
 @media (max-width: 600px) {
   .about {
     padding-left: var(--space-4);
     padding-right: var(--space-4);
+  }
+  .about__inner {
+    padding: var(--space-4) var(--space-2);
   }
 }

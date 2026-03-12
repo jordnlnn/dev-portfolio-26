@@ -1,7 +1,7 @@
 @use "tokens" as *;
 
 .services {
-  padding: 1px var(--space-6) var(--space-6);
+  padding: 1px var(--space-6) var(--space-9);
   background: var(--gray);
   color: var(--text);
 }
@@ -28,7 +28,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: var(--space-6);
-  margin-bottom: var(--space-8);
+  //margin-bottom: var(--space-8);
   align-items: stretch;
   perspective: 1000px; // Required for 3D effect
 }
@@ -68,7 +68,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: var(--space-5);
+  padding: var(--space-6);
 }
 
 .service-card__front {
@@ -91,14 +91,14 @@
   align-items: center;
   justify-content: center;
   margin-bottom: var(--space-5);
-  color: #fff;
+  color: var(--text);
   font-size: 1.5rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .service-card__title {
-  font-family: var(--font-mono);
-  font-weight: 600;
+  font-family: var(--font-sans);
+  font-weight: 900;
   font-size: var(--fs-2);
   margin-top: 0;
   margin-bottom: 0;
@@ -109,7 +109,8 @@
   line-height: 1.7;
   color: var(--muted);
   font-size: var(--fs-1);
-  margin-bottom: var(--space-5);
+  font-family: var(--font-mono);
+  //margin-bottom: var(--space-5);
 }
 
 .hire-btn {
@@ -132,11 +133,11 @@
 
 @media (max-width: 1000px) {
   .services__grid {
-    grid-template-columns: 1fr;
-    max-width: 500px;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
-    gap: var(--space-8);
+    gap: var(--space-4);
   }
 }
 
@@ -144,5 +145,12 @@
   .services {
     padding-left: var(--space-4);
     padding-right: var(--space-4);
+  }
+  .services__grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .service-card__desc {
+    font-size: var(--fs-0);
   }
 }

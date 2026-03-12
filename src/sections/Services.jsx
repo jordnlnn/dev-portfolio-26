@@ -38,9 +38,9 @@ export default function Services() {
                 {/* Back Face */}
                 <article className="service-card__back">
                   <p className="service-card__desc">{s.description}</p>
-                  <a href="#contact" className="btn btn--solid hire-btn">
+                  {/* <a href="#contact" className="btn btn--solid hire-btn">
                     HIRE ME
-                  </a>
+                  </a> */}
                 </article>
               </div>
             </div>

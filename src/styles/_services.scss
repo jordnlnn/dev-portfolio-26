@@ -1,18 +1,17 @@
 @use "tokens" as *;
 
 .services {
-  padding: var(--space-6) var(--space-9);
+  padding: 1px var(--space-6) var(--space-6);
   background: var(--gray);
   color: var(--text);
 }
 
 .services__inner {
   text-align: center;
+  padding: 0;
 }
 
 .services__title {
-  font-family: var(--font-mono);
-  font-weight: 600;
   font-size: clamp(1.8rem, 2.6vw, 2.3rem);
   margin-bottom: var(--space-2);
   color: var(--text);
@@ -62,7 +61,7 @@
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  border-radius: 22px;
+  //border-radius: 22px;
   border: 1px solid rgba(231, 234, 240, 0.08);
   box-shadow: 0 18px 50px rgba(0, 0, 0, 0.05);
   display: flex;

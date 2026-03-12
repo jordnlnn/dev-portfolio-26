@@ -30,7 +30,9 @@ export default function Services() {
                   <div className="service-card__icon-wrapper">
                     {getIcon(s.icon)}
                   </div>
-                  <h3 className="service-card__title">{s.title.toUpperCase()}</h3>
+                  <h3 className="service-card__title">
+                    {s.title.toUpperCase()}
+                  </h3>
                 </article>
 
                 {/* Back Face */}
